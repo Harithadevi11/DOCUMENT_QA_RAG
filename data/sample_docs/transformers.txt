@@ -1,0 +1,5 @@
+The Transformer architecture was introduced in 2017 in the paper titled Attention Is All You Need by Vaswani and colleagues. It replaced recurrence with self-attention, which lets every token in a sequence look at every other token directly. This design allows much greater parallelism during training than recurrent networks.
+
+Sentence-BERT, published in 2019 by Nils Reimers and Iryna Gurevych, adapts the BERT model to produce fixed-size sentence embeddings that can be compared with cosine similarity. The all-MiniLM-L6-v2 model is a small Sentence Transformers model that outputs 384-dimensional vectors, making it fast enough to run on a laptop CPU.
+
+FLAN-T5 is an instruction-tuned version of the T5 text-to-text model released by Google. It was fine-tuned on a large collection of tasks phrased as instructions, which helps it follow prompts such as answering a question from a given context. The base variant has about 250 million parameters and can run without a GPU.

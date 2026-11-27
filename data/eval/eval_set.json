@@ -1,0 +1,16 @@
+[
+  {"question": "Who introduced Retrieval-Augmented Generation?", "answer": "Patrick Lewis and colleagues", "evidence": "patrick lewis"},
+  {"question": "In what year was RAG introduced?", "answer": "2020", "evidence": "introduced in 2020"},
+  {"question": "How many stages does a typical RAG pipeline have?", "answer": "four", "evidence": "four stages"},
+  {"question": "What is the main benefit of RAG?", "answer": "reduces hallucination", "evidence": "reduces hallucination"},
+  {"question": "How can knowledge in a RAG system be updated without retraining the model?", "answer": "re-indexing documents", "evidence": "re-indexing documents"},
+  {"question": "What is FAISS?", "answer": "an open source library for efficient similarity search and clustering of dense vectors", "evidence": "efficient similarity search and clustering"},
+  {"question": "Which kind of index gives exact search results?", "answer": "flat index", "evidence": "flat index compares"},
+  {"question": "For unit-length vectors, the inner product equals what?", "answer": "cosine similarity", "evidence": "equals their cosine similarity"},
+  {"question": "What does BM25 adjust for when scoring a document?", "answer": "document length and term rarity", "evidence": "adjusted for document length"},
+  {"question": "Which technique merges ranked lists by summing inverse ranks?", "answer": "reciprocal rank fusion", "evidence": "reciprocal rank fusion, which merges"},
+  {"question": "Who wrote the paper Attention Is All You Need?", "answer": "Vaswani and colleagues", "evidence": "vaswani"},
+  {"question": "How many dimensions do all-MiniLM-L6-v2 vectors have?", "answer": "384", "evidence": "384-dimensional"},
+  {"question": "Approximately how many parameters does the base variant of FLAN-T5 have?", "answer": "250 million", "evidence": "250 million parameters"},
+  {"question": "Who published Sentence-BERT?", "answer": "Nils Reimers and Iryna Gurevych", "evidence": "nils reimers"}
+]

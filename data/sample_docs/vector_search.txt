@@ -1,0 +1,5 @@
+FAISS is an open source library for efficient similarity search and clustering of dense vectors. It was developed by Facebook AI Research, now part of Meta. FAISS supports exact search through flat indexes and approximate search through structures such as inverted file indexes and product quantization.
+
+A flat index compares the query vector with every stored vector, which gives exact results but scales linearly with collection size. When vectors are normalized to unit length, the inner product between two vectors equals their cosine similarity, so an inner product index can be used for cosine search.
+
+BM25 is a classic lexical ranking function used by search engines. It scores a document by the frequency of query terms in it, adjusted for document length and for how rare each term is across the collection. Lexical methods like BM25 work well when the question shares exact words with the passage, while dense retrieval handles paraphrases better. Hybrid retrieval combines both signals, often using reciprocal rank fusion, which merges ranked lists by summing the inverse of each item's rank plus a constant.
